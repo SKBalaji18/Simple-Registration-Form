@@ -1,0 +1,139 @@
+button {
+  cursor: pointer;
+}
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 35px;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.page-head {
+  font-weight: bold;
+  color: #ea580c;
+  font-size: 32px;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.input-label {
+  font-weight: bold;
+  color: #475569;
+  font-size: 20px;
+}
+
+.inputEl {
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 10px;
+  border: 1px solid #cbd2d9;
+  color: #9aa5b1;
+  outline: none;
+  border-radius: 7px;
+}
+
+.req-text {
+  color: #ff0b37;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.err-inputEl {
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 10px;
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+  outline: none;
+  border-radius: 7px;
+}
+
+.submit-btn {
+  background-color: #ea580c;
+  border: 0px;
+  border-radius: 8px;
+  padding: 12px;
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.success-result {
+  color: #475569;
+  font-size: 16px;
+  margin: 15px;
+}
+
+.success-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 760px) {
+  .bg-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+  }
+
+  img{
+    height: 150px;
+    width: 150px;
+  }
+
+  .page-head {
+    font-weight: bold;
+    color: #ea580c;
+    font-size: 42px;
+    text-align: center;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    width: 50%;
+    align-self: center;
+    border-radius: 11px;
+  }
+  .input-container {
+    width: 95%;
+  }
+  .success-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    width: 50%;
+    align-self: center;
+    border-radius: 11px;
+  }
+}
